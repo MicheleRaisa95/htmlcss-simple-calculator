@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*classi di utilities*/
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+/*fine classi di utilities*/
+.d-flex {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    
+}
+/*stile calcolatrice*/
+.calculator {
+    height: 600px;
+    width: 300px;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 10px;
+}
+   /*fine stile calcolatrice*/
+ 
+   /*stile nome calcolatrice*/
+.brand {
+    font-style: normal;
+    font-family: seven segment;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    flex-basis: 30px;
+}
+/*fine stile nome calcolatrice*/
