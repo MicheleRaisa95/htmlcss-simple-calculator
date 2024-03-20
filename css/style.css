@@ -81,3 +81,10 @@
     flex-grow: 0.55;
 }
 
+.giallo {
+    background-color: gold;
+}
+
+.op {
+    background-color: aqua;
+}
