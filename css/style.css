@@ -31,12 +31,25 @@
    /*stile nome calcolatrice*/
 .brand {
     font-style: normal;
-    font-family: seven segment;
+    font-family: Eurostile Extended;
     font-weight: 400;
     font-size: 30px;
     text-align: center;
     padding: 20px;
-    border-bottom: 1px solid #ccc;
+    
     flex-basis: 30px;
 }
 /*fine stile nome calcolatrice*/
+
+/*inizio stile schermo calcolatrice*/
+.screen {
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+   
+    font-family: seven segment;
+    background-color: black;
+    color: greenyellow;
+   
+}
+/*fine stile schermo calcolatrice*/
